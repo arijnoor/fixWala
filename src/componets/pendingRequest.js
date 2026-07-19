@@ -1,13 +1,11 @@
 import {
   LayoutDashboard,
   Users,
-  UserX,
-  Clock3,
   Settings,
   LogOut,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { getPendingUser, getUserById, getUsers} from "../service/userService";
+import { getPendingUser} from "../service/userService";
 import { useNavigate } from "react-router-dom";
 
 function PendingRequest() {
