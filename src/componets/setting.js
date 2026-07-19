@@ -5,14 +5,11 @@ import {
   LogOut,
 } from "lucide-react";
 
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import {
-    changePassword,
-  getAdminProfile,
-  updateAdminProfile,
-} from "../service/userService";
+    changePassword,updateAdminProfile,} from "../service/userService";
 function Setting() {
     const navigate = useNavigate();
 
