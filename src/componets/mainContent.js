@@ -1,5 +1,5 @@
 import fixWala from "./fixWala.png";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   Wind,
   Paintbrush,
