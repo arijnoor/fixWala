@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
 
-import { deleteProvider, getUserAndUpdate, getUserById, rejectUser } from "../service/userService";
+import { deleteProvider, getUserAndUpdate, getUserById, } from "../service/userService";
 
 function Form() {
 
@@ -38,7 +38,7 @@ const [rejectReason, setRejectReason] = useState("");
         startingPrice: "",
         shopImage: ""
     });
-    const [Images, setImages] = useState([]);
+
 
     const handleCheckbox = (e) => {
         const { value, checked } = e.target;
