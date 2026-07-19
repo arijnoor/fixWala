@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import { getApprovedUsers } from "../service/userService.js";
 import { useLocation, useNavigate } from "react-router-dom";
-import { Phone, MessageCircle, MapPin, ShieldAlert } from "lucide-react";
+import {  MapPin } from "lucide-react";
 
 function Cards() {
   const [providers, setProviders] = useState([]);
