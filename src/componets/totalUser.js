@@ -1,9 +1,6 @@
 import {
   LayoutDashboard,
   Users,
-  UserCheck,
-  UserX,
-  Clock3,
   Settings,
   LogOut,
 } from "lucide-react";
