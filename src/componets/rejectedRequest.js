@@ -1,9 +1,6 @@
 import {
   LayoutDashboard,
   Users,
-  UserCheck,
-  UserX,
-  Clock3,
   Settings,
   LogOut,
 } from "lucide-react";
@@ -14,11 +11,7 @@ import {
 
   deleteUser,
 
-  getRejectedUser,
-
-  getUserById,
-  getUsers,
-  rejectUser,
+  getRejectedUser
 } from "../service/userService";
 import { useNavigate } from "react-router-dom";
 function RejectedRequest() {
