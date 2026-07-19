@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getApprovedUsers } from "../service/userService";
-import { useLocation, useNavigate } from "react-router-dom";
-import { Phone, MessageCircle, MapPin } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { MapPin } from "lucide-react";
 function Providers() {
     const [providers, setProviders] = useState([]);
     const [selectedCity, setSelectedCity] = useState("All Cities");
