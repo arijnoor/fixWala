@@ -119,7 +119,8 @@ const navigate= useNavigate()
                 className="bg-white rounded-xl shadow-md hover:shadow-xl transition border overflow-hidden"
               >
                   <img
-            src={`http://localhost:5000/upload/${provider.img}`}
+            src={`https://fixwaladb-production.up.railway.app/upload/${provider.img}`}
+                                  
             alt={provider.fullName}
             className="w-full h-52 object-cover"
           />
