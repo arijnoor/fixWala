@@ -299,7 +299,7 @@ const handleLogout = () => {
           >
 <td>
     <img
-                  src={`http://localhost:5000/upload/${provider.img}`}
+                  src={`https://fixwaladb-production.up.railway.app/upload/${provider.img}`}
                   alt=""
                   className="w-14 h-14 rounded-full object-cover"
                 />
