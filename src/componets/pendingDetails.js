@@ -90,7 +90,7 @@ navigate("/pending")
                         {/* LEFT SIDE */}
                         <div className="lg:w-1/3 flex flex-col items-center">
                             <img
-                                src={`http://localhost:5000/upload/${provider.img}`}
+                                src={`https://fixwaladb-production.up.railway.app/upload/${provider.img}`}
                                 alt=""
                                 className="w-52 h-52 rounded-full border-4 border-orange-600 object-cover"
                             />
@@ -210,7 +210,7 @@ navigate("/pending")
                                     {provider.shopImage?.map((image, index) => (
                                         <img
                                             key={index}
-                                            src={`http://localhost:5000/upload/${image}`}
+                                            src={`https://fixwaladb-production.up.railway.app/upload/${image}`}
                                             alt=""
                                             className="h-60 w-full rounded-xl object-cover shadow-md hover:scale-105 transition"
                                         />
