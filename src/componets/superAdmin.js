@@ -39,7 +39,7 @@ function SuperAdmin() {
             className="bg-white rounded-2xl shadow-lg p-5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
           >
             <img
-               src={`http://localhost:5000/upload/${p.img}`}
+               src={`https://fixwaladb-production.up.railway.app/upload/${p.img}`}
               alt={p.fullName}
                className="flex-1 text-white py-2 rounded-3xl"
             />
