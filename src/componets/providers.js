@@ -79,7 +79,7 @@ function Providers() {
                             <div className="p-5">
 
 <img
-            src={`http://localhost:5000/upload/${provider.img}`}
+            src={`https://fixwaladb-production.up.railway.app/upload/${provider.img}`}
             alt={provider.fullName}
             className="w-full h-52 object-cover"
           />
